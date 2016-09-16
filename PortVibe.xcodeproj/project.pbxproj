@@ -7,6 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0E67981949078E002C9B03 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0E67971949078E002C9B03 /* libicucore.dylib */; };
+		0B0E679A19490796002C9B03 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0E679919490796002C9B03 /* CFNetwork.framework */; };
+		0B0E679C1949079D002C9B03 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0E679B1949079D002C9B03 /* Security.framework */; };
+		0B19D683194BCD6200DA1344 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B19D682194BCD6200DA1344 /* QuartzCore.framework */; };
+		0B19D686194CFBE000DA1344 /* CustomIOS7AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B19D685194CFBE000DA1344 /* CustomIOS7AlertView.m */; };
+		0B19D690194E524A00DA1344 /* flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B19D68D194E524A00DA1344 /* flag.jpg */; };
+		0B19D691194E524A00DA1344 /* like.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B19D68E194E524A00DA1344 /* like.jpg */; };
+		0B19D697194F7B7900DA1344 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B19D696194F7B7900DA1344 /* search.png */; };
+		0B19D69B194F7CD700DA1344 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B19D69A194F7CD700DA1344 /* menu.png */; };
+		0B19D69D194F87A800DA1344 /* mapview.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B19D69C194F87A800DA1344 /* mapview.png */; };
+		0B19D69F194F895F00DA1344 /* subscribers.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B19D69E194F895F00DA1344 /* subscribers.png */; };
+		0B19D6A3194FC1ED00DA1344 /* PVReplyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B19D6A1194FC1ED00DA1344 /* PVReplyTableViewCell.m */; };
+		0B19D6A4194FC1ED00DA1344 /* PVReplyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B19D6A2194FC1ED00DA1344 /* PVReplyTableViewCell.xib */; };
+		0B33CAA3194FCE1D0095B707 /* PVReplyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33CAA2194FCE1D0095B707 /* PVReplyTableViewController.m */; };
+		0B33CAA9195193C70095B707 /* PVPortfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33CAA7195193C70095B707 /* PVPortfileViewController.m */; };
+		0B33CAAE195196B20095B707 /* Message.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B33CAAD195196B20095B707 /* Message.png */; };
+		0B33CAB0195198470095B707 /* plusFriend.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B33CAAF195198470095B707 /* plusFriend.png */; };
+		0B33CAB219519AFB0095B707 /* portalQuality.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B33CAB119519AFB0095B707 /* portalQuality.png */; };
+		0B33CAB419519EC90095B707 /* reportUser.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B33CAB319519EC90095B707 /* reportUser.png */; };
+		0B33CAB81951A2D70095B707 /* PVSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33CAB61951A2D70095B707 /* PVSearchViewController.m */; };
+		0B33CAB91951A2D70095B707 /* PVSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B33CAB71951A2D70095B707 /* PVSearchViewController.xib */; };
+		0B33CABB1951C2800095B707 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B33CABA1951C2800095B707 /* Accelerate.framework */; };
+		0B33CAC81951C8630095B707 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33CABD1951C8630095B707 /* RECommonFunctions.m */; };
+		0B33CAC91951C8630095B707 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33CABF1951C8630095B707 /* REFrostedContainerViewController.m */; };
+		0B33CACA1951C8630095B707 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33CAC11951C8630095B707 /* REFrostedViewController.m */; };
+		0B33CACB1951C8630095B707 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33CAC31951C8630095B707 /* UIImage+REFrostedViewController.m */; };
+		0B33CACC1951C8630095B707 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33CAC51951C8630095B707 /* UIView+REFrostedViewController.m */; };
+		0B33CACD1951C8630095B707 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33CAC71951C8630095B707 /* UIViewController+REFrostedViewController.m */; };
+		0B33CAD0195231B20095B707 /* PVMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33CACF195231B20095B707 /* PVMenuTableViewController.m */; };
+		0B33CAD31952351E0095B707 /* PVMenuNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33CAD21952351E0095B707 /* PVMenuNavigationViewController.m */; };
+		0B34DB04193D119300B8EA23 /* PVPortInTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B34DB02193D119300B8EA23 /* PVPortInTableViewCell.m */; };
+		0B34DB05193D119300B8EA23 /* PVPortInTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B34DB03193D119300B8EA23 /* PVPortInTableViewCell.xib */; };
+		0B34DB09193D1CBA00B8EA23 /* distance.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0B34DB08193D1CBA00B8EA23 /* distance.jpeg */; };
+		0B34DB0B193D3B6800B8EA23 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B34DB0A193D3B6800B8EA23 /* CoreLocation.framework */; };
+		0B34DB0E193D3CA500B8EA23 /* PVCoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B34DB0D193D3CA500B8EA23 /* PVCoreLocationController.m */; };
+		0B481C6419536EDC00D5CA5A /* PVPortalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B19D688194D3A6100DA1344 /* PVPortalPageViewController.m */; };
+		0B481C6519536F0800D5CA5A /* PVPortfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B33CAA8195193C70095B707 /* PVPortfileViewController.xib */; };
+		0B481C6619536F1200D5CA5A /* PVPortalPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B19D689194D3A6100DA1344 /* PVPortalPageViewController.xib */; };
+		0B481C6919538BEF00D5CA5A /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B481C6819538BEF00D5CA5A /* SFHFKeychainUtils.m */; };
+		0B481C6B19555A3C00D5CA5A /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B481C6A19555A3C00D5CA5A /* backButton.png */; };
+		0B481C6F19555DC200D5CA5A /* PVGPSCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B481C6D19555DC100D5CA5A /* PVGPSCellTableViewCell.m */; };
+		0B481C7019555DC200D5CA5A /* PVGPSCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B481C6E19555DC200D5CA5A /* PVGPSCellTableViewCell.xib */; };
+		0B481C741955672B00D5CA5A /* PVAccountSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B481C721955672B00D5CA5A /* PVAccountSettingsViewController.m */; };
+		0B481C751955672B00D5CA5A /* PVAccountSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B481C731955672B00D5CA5A /* PVAccountSettingsViewController.xib */; };
+		0B4EF3E1193BBC5E0036D659 /* PVMapviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B4EF3E0193BBC5E0036D659 /* PVMapviewViewController.xib */; };
+		0B4EF3E3193BBD0E0036D659 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4EF3E2193BBD0D0036D659 /* MapKit.framework */; };
+		0B5F8864192DFC5D00AF2ED2 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5F885D192DFC5D00AF2ED2 /* clock.png */; };
+		0B5F8866192DFC5D00AF2ED2 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5F885F192DFC5D00AF2ED2 /* house.png */; };
+		0B5F8867192DFC5D00AF2ED2 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5F8860192DFC5D00AF2ED2 /* location.png */; };
+		0B5F886A192DFC5D00AF2ED2 /* posts.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5F8863192DFC5D00AF2ED2 /* posts.png */; };
+		0B6C01EE1933BBBA00AFFBF6 /* PVMyPortfolioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C01EC1933BBBA00AFFBF6 /* PVMyPortfolioViewController.m */; };
+		0B6C01EF1933BBBA00AFFBF6 /* PVMyPortfolioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C01ED1933BBBA00AFFBF6 /* PVMyPortfolioViewController.xib */; };
+		0B6C01F41933D3A300AFFBF6 /* PVFriendsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C01F31933D3A300AFFBF6 /* PVFriendsTableViewCell.m */; };
+		0B8F8E6419462C4100B4F6D3 /* PVForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8F8E6219462C4100B4F6D3 /* PVForgotPasswordViewController.m */; };
+		0B8F8E6519462C4100B4F6D3 /* PVForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B8F8E6319462C4100B4F6D3 /* PVForgotPasswordViewController.xib */; };
+		0B8F8E68194641E000B4F6D3 /* PVSingletonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8F8E67194641E000B4F6D3 /* PVSingletonData.m */; };
+		0B90608019609723002024EA /* vibeWave.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B90607F19609723002024EA /* vibeWave.png */; };
+		0B90608419609C2A002024EA /* PVEmptyListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90608219609C2A002024EA /* PVEmptyListTableViewCell.m */; };
+		0B90608519609C2A002024EA /* PVEmptyListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B90608319609C2A002024EA /* PVEmptyListTableViewCell.xib */; };
+		0B9303461937BEDC007F7DBE /* PVPortalsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9303451937BEDC007F7DBE /* PVPortalsTableViewCell.m */; };
+		0B9303481937C6D7007F7DBE /* PVPortalsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9303471937C6D7007F7DBE /* PVPortalsTableViewCell.xib */; };
+		0BA7AF091958FAE600438DC9 /* PVVibesItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA7AF081958FAE600438DC9 /* PVVibesItem.m */; };
+		0BA7AF0B195B4CB800438DC9 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA7AF0A195B4CB800438DC9 /* delete.png */; };
+		0BA7AF0D195B678F00438DC9 /* sheriffBadge.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA7AF0C195B678F00438DC9 /* sheriffBadge.png */; };
+		0BA7AF10195CCF9100438DC9 /* PVPortalItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA7AF0F195CCF9100438DC9 /* PVPortalItem.m */; };
+		0BA7AF12195CCFBA00438DC9 /* bossBadge.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA7AF11195CCFBA00438DC9 /* bossBadge.png */; };
+		0BA7AF16195CDA6500438DC9 /* mouthBadge.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA7AF15195CDA6500438DC9 /* mouthBadge.png */; };
+		0BA7AF18195CE0C100438DC9 /* Portal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA7AF17195CE0C100438DC9 /* Portal.png */; };
+		0BA7AF1A195DEA4900438DC9 /* portViber.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA7AF19195DEA4900438DC9 /* portViber.png */; };
+		0BAE4C88194911CF0033FED6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAE4C87194911CF0033FED6 /* MobileCoreServices.framework */; };
+		0BAE4C8C194913EE0033FED6 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAE4C8B194913EE0033FED6 /* SRWebSocket.m */; };
+		0BB94A9D1947CCDB00C46261 /* PVSocketConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB94A9C1947CCDB00C46261 /* PVSocketConnection.m */; };
+		0BB94AA91947EA7800C46261 /* SocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB94A9F1947EA7800C46261 /* SocketIO.m */; };
+		0BB94AAA1947EA7800C46261 /* SocketIOJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB94AA11947EA7800C46261 /* SocketIOJSONSerialization.m */; };
+		0BB94AAB1947EA7800C46261 /* SocketIOPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB94AA31947EA7800C46261 /* SocketIOPacket.m */; };
+		0BB94AAC1947EA7800C46261 /* SocketIOTransportWebsocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB94AA61947EA7800C46261 /* SocketIOTransportWebsocket.m */; };
+		0BB94AAD1947EA7800C46261 /* SocketIOTransportXHR.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB94AA81947EA7800C46261 /* SocketIOTransportXHR.m */; };
+		0BB95B8919610F3B0029F63D /* cartman.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB95B8819610F3B0029F63D /* cartman.png */; };
 		0BBD622B192944B600B5D47B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBD622A192944B600B5D47B /* Foundation.framework */; };
 		0BBD622D192944B600B5D47B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBD622C192944B600B5D47B /* CoreGraphics.framework */; };
 		0BBD622F192944B600B5D47B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBD622E192944B600B5D47B /* UIKit.framework */; };
@@ -22,6 +100,21 @@
 		0BBD624C192944B600B5D47B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBD6230192944B600B5D47B /* CoreData.framework */; };
 		0BBD6254192944B600B5D47B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BBD6252192944B600B5D47B /* InfoPlist.strings */; };
 		0BBD6256192944B600B5D47B /* PortVibeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD6255192944B600B5D47B /* PortVibeTests.m */; };
+		0BBD626119294BEA00B5D47B /* PVHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD626019294BEA00B5D47B /* PVHomeViewController.m */; };
+		0BBD626419294BFA00B5D47B /* PVPostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD626319294BFA00B5D47B /* PVPostsViewController.m */; };
+		0BBD626A1929508700B5D47B /* PVPortalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD62691929508700B5D47B /* PVPortalsViewController.m */; };
+		0BBD627D192978C300B5D47B /* PVLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD627B192978C300B5D47B /* PVLoginViewController.m */; };
+		0BBD627E192978C300B5D47B /* PVLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BBD627C192978C300B5D47B /* PVLoginViewController.xib */; };
+		0BBD6284192AB27D00B5D47B /* PVPostsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD6283192AB27D00B5D47B /* PVPostsTableViewCell.m */; };
+		0BD61F561936627300315506 /* PVPostsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BD61F551936627300315506 /* PVPostsTableViewCell.xib */; };
+		0BD61F58193679A600315506 /* PVFriendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BD61F57193679A600315506 /* PVFriendsTableViewCell.xib */; };
+		0BF2F8A1192EA183004B2A57 /* portalPic.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF2F8A0192EA183004B2A57 /* portalPic.png */; };
+		0BF2F8A3192EA1A3004B2A57 /* portfiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF2F8A2192EA1A3004B2A57 /* portfiles.png */; };
+		0BF2F8A6192EA700004B2A57 /* PVRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF2F8A5192EA700004B2A57 /* PVRegisterViewController.m */; };
+		0BF2F8A8192EA776004B2A57 /* PVRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BF2F8A7192EA776004B2A57 /* PVRegisterViewController.xib */; };
+		0BF2F8AA192ED22E004B2A57 /* anonymousPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF2F8A9192ED22E004B2A57 /* anonymousPhoto.png */; };
+		0BF2F8B1192FF384004B2A57 /* greenLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF2F8B0192FF384004B2A57 /* greenLight.png */; };
+		0BF2F8B4192FFB5F004B2A57 /* PVMapviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF2F8B3192FFB5F004B2A57 /* PVMapviewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +128,120 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B0E67971949078E002C9B03 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		0B0E679919490796002C9B03 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0B0E679B1949079D002C9B03 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0B19D682194BCD6200DA1344 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0B19D684194CFBE000DA1344 /* CustomIOS7AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOS7AlertView.h; sourceTree = "<group>"; };
+		0B19D685194CFBE000DA1344 /* CustomIOS7AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOS7AlertView.m; sourceTree = "<group>"; };
+		0B19D687194D3A6100DA1344 /* PVPortalPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPortalPageViewController.h; sourceTree = "<group>"; };
+		0B19D688194D3A6100DA1344 /* PVPortalPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVPortalPageViewController.m; sourceTree = "<group>"; };
+		0B19D689194D3A6100DA1344 /* PVPortalPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVPortalPageViewController.xib; sourceTree = "<group>"; };
+		0B19D68D194E524A00DA1344 /* flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flag.jpg; sourceTree = "<group>"; };
+		0B19D68E194E524A00DA1344 /* like.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = like.jpg; sourceTree = "<group>"; };
+		0B19D696194F7B7900DA1344 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		0B19D69A194F7CD700DA1344 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		0B19D69C194F87A800DA1344 /* mapview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapview.png; sourceTree = "<group>"; };
+		0B19D69E194F895F00DA1344 /* subscribers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subscribers.png; sourceTree = "<group>"; };
+		0B19D6A0194FC1ED00DA1344 /* PVReplyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVReplyTableViewCell.h; sourceTree = "<group>"; };
+		0B19D6A1194FC1ED00DA1344 /* PVReplyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVReplyTableViewCell.m; sourceTree = "<group>"; };
+		0B19D6A2194FC1ED00DA1344 /* PVReplyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVReplyTableViewCell.xib; sourceTree = "<group>"; };
+		0B33CAA1194FCE1D0095B707 /* PVReplyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVReplyTableViewController.h; sourceTree = "<group>"; };
+		0B33CAA2194FCE1D0095B707 /* PVReplyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVReplyTableViewController.m; sourceTree = "<group>"; };
+		0B33CAA6195193C70095B707 /* PVPortfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPortfileViewController.h; sourceTree = "<group>"; };
+		0B33CAA7195193C70095B707 /* PVPortfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVPortfileViewController.m; sourceTree = "<group>"; };
+		0B33CAA8195193C70095B707 /* PVPortfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVPortfileViewController.xib; sourceTree = "<group>"; };
+		0B33CAAD195196B20095B707 /* Message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Message.png; sourceTree = "<group>"; };
+		0B33CAAF195198470095B707 /* plusFriend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plusFriend.png; sourceTree = "<group>"; };
+		0B33CAB119519AFB0095B707 /* portalQuality.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portalQuality.png; sourceTree = "<group>"; };
+		0B33CAB319519EC90095B707 /* reportUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reportUser.png; sourceTree = "<group>"; };
+		0B33CAB51951A2D70095B707 /* PVSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVSearchViewController.h; sourceTree = "<group>"; };
+		0B33CAB61951A2D70095B707 /* PVSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVSearchViewController.m; sourceTree = "<group>"; };
+		0B33CAB71951A2D70095B707 /* PVSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVSearchViewController.xib; sourceTree = "<group>"; };
+		0B33CABA1951C2800095B707 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		0B33CABC1951C8630095B707 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = SOURCE_ROOT; };
+		0B33CABD1951C8630095B707 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = SOURCE_ROOT; };
+		0B33CABE1951C8630095B707 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedContainerViewController.h; sourceTree = SOURCE_ROOT; };
+		0B33CABF1951C8630095B707 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedContainerViewController.m; sourceTree = SOURCE_ROOT; };
+		0B33CAC01951C8630095B707 /* REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedViewController.h; sourceTree = SOURCE_ROOT; };
+		0B33CAC11951C8630095B707 /* REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedViewController.m; sourceTree = SOURCE_ROOT; };
+		0B33CAC21951C8630095B707 /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+REFrostedViewController.h"; sourceTree = SOURCE_ROOT; };
+		0B33CAC31951C8630095B707 /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+REFrostedViewController.m"; sourceTree = SOURCE_ROOT; };
+		0B33CAC41951C8630095B707 /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+REFrostedViewController.h"; sourceTree = SOURCE_ROOT; };
+		0B33CAC51951C8630095B707 /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = SOURCE_ROOT; };
+		0B33CAC61951C8630095B707 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+REFrostedViewController.h"; sourceTree = SOURCE_ROOT; };
+		0B33CAC71951C8630095B707 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+REFrostedViewController.m"; sourceTree = SOURCE_ROOT; };
+		0B33CACE195231B20095B707 /* PVMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMenuTableViewController.h; sourceTree = "<group>"; };
+		0B33CACF195231B20095B707 /* PVMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMenuTableViewController.m; sourceTree = "<group>"; };
+		0B33CAD11952351E0095B707 /* PVMenuNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMenuNavigationViewController.h; sourceTree = "<group>"; };
+		0B33CAD21952351E0095B707 /* PVMenuNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMenuNavigationViewController.m; sourceTree = "<group>"; };
+		0B34DB01193D119300B8EA23 /* PVPortInTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPortInTableViewCell.h; sourceTree = "<group>"; };
+		0B34DB02193D119300B8EA23 /* PVPortInTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVPortInTableViewCell.m; sourceTree = "<group>"; };
+		0B34DB03193D119300B8EA23 /* PVPortInTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVPortInTableViewCell.xib; sourceTree = "<group>"; };
+		0B34DB08193D1CBA00B8EA23 /* distance.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = distance.jpeg; sourceTree = "<group>"; };
+		0B34DB0A193D3B6800B8EA23 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0B34DB0C193D3CA500B8EA23 /* PVCoreLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVCoreLocationController.h; sourceTree = "<group>"; };
+		0B34DB0D193D3CA500B8EA23 /* PVCoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVCoreLocationController.m; sourceTree = "<group>"; };
+		0B481C6719538BEF00D5CA5A /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		0B481C6819538BEF00D5CA5A /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		0B481C6A19555A3C00D5CA5A /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		0B481C6C19555DC100D5CA5A /* PVGPSCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVGPSCellTableViewCell.h; sourceTree = "<group>"; };
+		0B481C6D19555DC100D5CA5A /* PVGPSCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVGPSCellTableViewCell.m; sourceTree = "<group>"; };
+		0B481C6E19555DC200D5CA5A /* PVGPSCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVGPSCellTableViewCell.xib; sourceTree = "<group>"; };
+		0B481C711955672B00D5CA5A /* PVAccountSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAccountSettingsViewController.h; sourceTree = "<group>"; };
+		0B481C721955672B00D5CA5A /* PVAccountSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAccountSettingsViewController.m; sourceTree = "<group>"; };
+		0B481C731955672B00D5CA5A /* PVAccountSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVAccountSettingsViewController.xib; sourceTree = "<group>"; };
+		0B4EF3E0193BBC5E0036D659 /* PVMapviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVMapviewViewController.xib; sourceTree = "<group>"; };
+		0B4EF3E2193BBD0D0036D659 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0B5F885D192DFC5D00AF2ED2 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		0B5F885F192DFC5D00AF2ED2 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		0B5F8860192DFC5D00AF2ED2 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		0B5F8863192DFC5D00AF2ED2 /* posts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = posts.png; sourceTree = "<group>"; };
+		0B6C01EB1933BBBA00AFFBF6 /* PVMyPortfolioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMyPortfolioViewController.h; sourceTree = "<group>"; };
+		0B6C01EC1933BBBA00AFFBF6 /* PVMyPortfolioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMyPortfolioViewController.m; sourceTree = "<group>"; };
+		0B6C01ED1933BBBA00AFFBF6 /* PVMyPortfolioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVMyPortfolioViewController.xib; sourceTree = "<group>"; };
+		0B6C01F21933D3A300AFFBF6 /* PVFriendsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVFriendsTableViewCell.h; sourceTree = "<group>"; };
+		0B6C01F31933D3A300AFFBF6 /* PVFriendsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVFriendsTableViewCell.m; sourceTree = "<group>"; };
+		0B8F8E6119462C4100B4F6D3 /* PVForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVForgotPasswordViewController.h; sourceTree = "<group>"; };
+		0B8F8E6219462C4100B4F6D3 /* PVForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVForgotPasswordViewController.m; sourceTree = "<group>"; };
+		0B8F8E6319462C4100B4F6D3 /* PVForgotPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVForgotPasswordViewController.xib; sourceTree = "<group>"; };
+		0B8F8E66194641E000B4F6D3 /* PVSingletonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVSingletonData.h; sourceTree = "<group>"; };
+		0B8F8E67194641E000B4F6D3 /* PVSingletonData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVSingletonData.m; sourceTree = "<group>"; };
+		0B90607F19609723002024EA /* vibeWave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vibeWave.png; sourceTree = "<group>"; };
+		0B90608119609C2A002024EA /* PVEmptyListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVEmptyListTableViewCell.h; sourceTree = "<group>"; };
+		0B90608219609C2A002024EA /* PVEmptyListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVEmptyListTableViewCell.m; sourceTree = "<group>"; };
+		0B90608319609C2A002024EA /* PVEmptyListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVEmptyListTableViewCell.xib; sourceTree = "<group>"; };
+		0B9303441937BEDC007F7DBE /* PVPortalsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPortalsTableViewCell.h; sourceTree = "<group>"; };
+		0B9303451937BEDC007F7DBE /* PVPortalsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVPortalsTableViewCell.m; sourceTree = "<group>"; };
+		0B9303471937C6D7007F7DBE /* PVPortalsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVPortalsTableViewCell.xib; sourceTree = "<group>"; };
+		0BA7AF071958FAE600438DC9 /* PVVibesItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVVibesItem.h; sourceTree = "<group>"; };
+		0BA7AF081958FAE600438DC9 /* PVVibesItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVVibesItem.m; sourceTree = "<group>"; };
+		0BA7AF0A195B4CB800438DC9 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		0BA7AF0C195B678F00438DC9 /* sheriffBadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sheriffBadge.png; sourceTree = "<group>"; };
+		0BA7AF0E195CCF9100438DC9 /* PVPortalItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPortalItem.h; sourceTree = "<group>"; };
+		0BA7AF0F195CCF9100438DC9 /* PVPortalItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVPortalItem.m; sourceTree = "<group>"; };
+		0BA7AF11195CCFBA00438DC9 /* bossBadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bossBadge.png; sourceTree = "<group>"; };
+		0BA7AF15195CDA6500438DC9 /* mouthBadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouthBadge.png; sourceTree = "<group>"; };
+		0BA7AF17195CE0C100438DC9 /* Portal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portal.png; sourceTree = "<group>"; };
+		0BA7AF19195DEA4900438DC9 /* portViber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portViber.png; sourceTree = "<group>"; };
+		0BAE4C87194911CF0033FED6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0BAE4C89194913EE0033FED6 /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		0BAE4C8A194913EE0033FED6 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = SOURCE_ROOT; };
+		0BAE4C8B194913EE0033FED6 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = SOURCE_ROOT; };
+		0BB94A9B1947CCDB00C46261 /* PVSocketConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVSocketConnection.h; sourceTree = "<group>"; };
+		0BB94A9C1947CCDB00C46261 /* PVSocketConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVSocketConnection.m; sourceTree = "<group>"; };
+		0BB94A9E1947EA7800C46261 /* SocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIO.h; sourceTree = SOURCE_ROOT; };
+		0BB94A9F1947EA7800C46261 /* SocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIO.m; sourceTree = SOURCE_ROOT; };
+		0BB94AA01947EA7800C46261 /* SocketIOJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOJSONSerialization.h; sourceTree = SOURCE_ROOT; };
+		0BB94AA11947EA7800C46261 /* SocketIOJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOJSONSerialization.m; sourceTree = SOURCE_ROOT; };
+		0BB94AA21947EA7800C46261 /* SocketIOPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOPacket.h; sourceTree = SOURCE_ROOT; };
+		0BB94AA31947EA7800C46261 /* SocketIOPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOPacket.m; sourceTree = SOURCE_ROOT; };
+		0BB94AA41947EA7800C46261 /* SocketIOTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOTransport.h; sourceTree = SOURCE_ROOT; };
+		0BB94AA51947EA7800C46261 /* SocketIOTransportWebsocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOTransportWebsocket.h; sourceTree = SOURCE_ROOT; };
+		0BB94AA61947EA7800C46261 /* SocketIOTransportWebsocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOTransportWebsocket.m; sourceTree = SOURCE_ROOT; };
+		0BB94AA71947EA7800C46261 /* SocketIOTransportXHR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOTransportXHR.h; sourceTree = SOURCE_ROOT; };
+		0BB94AA81947EA7800C46261 /* SocketIOTransportXHR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOTransportXHR.m; sourceTree = SOURCE_ROOT; };
+		0BB95B8819610F3B0029F63D /* cartman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cartman.png; sourceTree = "<group>"; };
 		0BBD6227192944B600B5D47B /* PortVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBD622A192944B600B5D47B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0BBD622C192944B600B5D47B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +260,28 @@
 		0BBD6251192944B600B5D47B /* PortVibeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PortVibeTests-Info.plist"; sourceTree = "<group>"; };
 		0BBD6253192944B600B5D47B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0BBD6255192944B600B5D47B /* PortVibeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortVibeTests.m; sourceTree = "<group>"; };
+		0BBD625F19294BEA00B5D47B /* PVHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVHomeViewController.h; sourceTree = "<group>"; };
+		0BBD626019294BEA00B5D47B /* PVHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVHomeViewController.m; sourceTree = "<group>"; };
+		0BBD626219294BFA00B5D47B /* PVPostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPostsViewController.h; sourceTree = "<group>"; };
+		0BBD626319294BFA00B5D47B /* PVPostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVPostsViewController.m; sourceTree = "<group>"; };
+		0BBD62681929508700B5D47B /* PVPortalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPortalsViewController.h; sourceTree = "<group>"; };
+		0BBD62691929508700B5D47B /* PVPortalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVPortalsViewController.m; sourceTree = "<group>"; };
+		0BBD627A192978C300B5D47B /* PVLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVLoginViewController.h; sourceTree = "<group>"; };
+		0BBD627B192978C300B5D47B /* PVLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVLoginViewController.m; sourceTree = "<group>"; };
+		0BBD627C192978C300B5D47B /* PVLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVLoginViewController.xib; sourceTree = "<group>"; };
+		0BBD6282192AB27D00B5D47B /* PVPostsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPostsTableViewCell.h; sourceTree = "<group>"; };
+		0BBD6283192AB27D00B5D47B /* PVPostsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVPostsTableViewCell.m; sourceTree = "<group>"; };
+		0BD61F551936627300315506 /* PVPostsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVPostsTableViewCell.xib; sourceTree = "<group>"; };
+		0BD61F57193679A600315506 /* PVFriendsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVFriendsTableViewCell.xib; sourceTree = "<group>"; };
+		0BF2F8A0192EA183004B2A57 /* portalPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portalPic.png; sourceTree = "<group>"; };
+		0BF2F8A2192EA1A3004B2A57 /* portfiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portfiles.png; sourceTree = "<group>"; };
+		0BF2F8A4192EA700004B2A57 /* PVRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRegisterViewController.h; sourceTree = "<group>"; };
+		0BF2F8A5192EA700004B2A57 /* PVRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVRegisterViewController.m; sourceTree = "<group>"; };
+		0BF2F8A7192EA776004B2A57 /* PVRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVRegisterViewController.xib; sourceTree = "<group>"; };
+		0BF2F8A9192ED22E004B2A57 /* anonymousPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anonymousPhoto.png; sourceTree = "<group>"; };
+		0BF2F8B0192FF384004B2A57 /* greenLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenLight.png; sourceTree = "<group>"; };
+		0BF2F8B2192FFB5F004B2A57 /* PVMapviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMapviewViewController.h; sourceTree = "<group>"; };
+		0BF2F8B3192FFB5F004B2A57 /* PVMapviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMapviewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +289,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B33CABB1951C2800095B707 /* Accelerate.framework in Frameworks */,
+				0B19D683194BCD6200DA1344 /* QuartzCore.framework in Frameworks */,
+				0BAE4C88194911CF0033FED6 /* MobileCoreServices.framework in Frameworks */,
+				0B0E679C1949079D002C9B03 /* Security.framework in Frameworks */,
+				0B0E679A19490796002C9B03 /* CFNetwork.framework in Frameworks */,
+				0B0E67981949078E002C9B03 /* libicucore.dylib in Frameworks */,
+				0B34DB0B193D3B6800B8EA23 /* CoreLocation.framework in Frameworks */,
+				0B4EF3E3193BBD0E0036D659 /* MapKit.framework in Frameworks */,
 				0BBD622D192944B600B5D47B /* CoreGraphics.framework in Frameworks */,
 				0BBD6231192944B600B5D47B /* CoreData.framework in Frameworks */,
 				0BBD622F192944B600B5D47B /* UIKit.framework in Frameworks */,
@@ -81,6 +318,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B5F8852192D4A5400AF2ED2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0BB95B8819610F3B0029F63D /* cartman.png */,
+				0B90607F19609723002024EA /* vibeWave.png */,
+				0BA7AF19195DEA4900438DC9 /* portViber.png */,
+				0BA7AF17195CE0C100438DC9 /* Portal.png */,
+				0BA7AF11195CCFBA00438DC9 /* bossBadge.png */,
+				0BA7AF15195CDA6500438DC9 /* mouthBadge.png */,
+				0BA7AF0C195B678F00438DC9 /* sheriffBadge.png */,
+				0BA7AF0A195B4CB800438DC9 /* delete.png */,
+				0B33CAAD195196B20095B707 /* Message.png */,
+				0B481C6A19555A3C00D5CA5A /* backButton.png */,
+				0B33CAB119519AFB0095B707 /* portalQuality.png */,
+				0B33CAAF195198470095B707 /* plusFriend.png */,
+				0B19D69A194F7CD700DA1344 /* menu.png */,
+				0B19D68D194E524A00DA1344 /* flag.jpg */,
+				0B19D68E194E524A00DA1344 /* like.jpg */,
+				0B19D696194F7B7900DA1344 /* search.png */,
+				0B19D69C194F87A800DA1344 /* mapview.png */,
+				0B34DB08193D1CBA00B8EA23 /* distance.jpeg */,
+				0B33CAB319519EC90095B707 /* reportUser.png */,
+				0BF2F8B0192FF384004B2A57 /* greenLight.png */,
+				0B19D69E194F895F00DA1344 /* subscribers.png */,
+				0BF2F8A9192ED22E004B2A57 /* anonymousPhoto.png */,
+				0BF2F8A2192EA1A3004B2A57 /* portfiles.png */,
+				0BF2F8A0192EA183004B2A57 /* portalPic.png */,
+				0B5F885D192DFC5D00AF2ED2 /* clock.png */,
+				0B5F885F192DFC5D00AF2ED2 /* house.png */,
+				0B5F8860192DFC5D00AF2ED2 /* location.png */,
+				0B5F8863192DFC5D00AF2ED2 /* posts.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		0BBD621E192944B600B5D47B = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +375,14 @@
 		0BBD6229192944B600B5D47B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0B33CABA1951C2800095B707 /* Accelerate.framework */,
+				0B19D682194BCD6200DA1344 /* QuartzCore.framework */,
+				0BAE4C87194911CF0033FED6 /* MobileCoreServices.framework */,
+				0B0E679B1949079D002C9B03 /* Security.framework */,
+				0B0E679919490796002C9B03 /* CFNetwork.framework */,
+				0B0E67971949078E002C9B03 /* libicucore.dylib */,
+				0B34DB0A193D3B6800B8EA23 /* CoreLocation.framework */,
+				0B4EF3E2193BBD0D0036D659 /* MapKit.framework */,
 				0BBD622A192944B600B5D47B /* Foundation.framework */,
 				0BBD622C192944B600B5D47B /* CoreGraphics.framework */,
 				0BBD622E192944B600B5D47B /* UIKit.framework */,
@@ -115,10 +395,111 @@
 		0BBD6232192944B600B5D47B /* PortVibe */ = {
 			isa = PBXGroup;
 			children = (
+				0B481C6719538BEF00D5CA5A /* SFHFKeychainUtils.h */,
+				0B481C6819538BEF00D5CA5A /* SFHFKeychainUtils.m */,
+				0B33CABC1951C8630095B707 /* RECommonFunctions.h */,
+				0B33CABD1951C8630095B707 /* RECommonFunctions.m */,
+				0B33CABE1951C8630095B707 /* REFrostedContainerViewController.h */,
+				0B33CABF1951C8630095B707 /* REFrostedContainerViewController.m */,
+				0B33CAC01951C8630095B707 /* REFrostedViewController.h */,
+				0B33CAC11951C8630095B707 /* REFrostedViewController.m */,
+				0B33CAC21951C8630095B707 /* UIImage+REFrostedViewController.h */,
+				0B33CAC31951C8630095B707 /* UIImage+REFrostedViewController.m */,
+				0B33CAC41951C8630095B707 /* UIView+REFrostedViewController.h */,
+				0B33CAC51951C8630095B707 /* UIView+REFrostedViewController.m */,
+				0B33CAC61951C8630095B707 /* UIViewController+REFrostedViewController.h */,
+				0B33CAC71951C8630095B707 /* UIViewController+REFrostedViewController.m */,
+				0B19D684194CFBE000DA1344 /* CustomIOS7AlertView.h */,
+				0B19D685194CFBE000DA1344 /* CustomIOS7AlertView.m */,
+				0BAE4C89194913EE0033FED6 /* SocketRocket-Prefix.pch */,
+				0BAE4C8A194913EE0033FED6 /* SRWebSocket.h */,
+				0BAE4C8B194913EE0033FED6 /* SRWebSocket.m */,
+				0BB94A9E1947EA7800C46261 /* SocketIO.h */,
+				0BB94A9F1947EA7800C46261 /* SocketIO.m */,
+				0BB94AA01947EA7800C46261 /* SocketIOJSONSerialization.h */,
+				0BB94AA11947EA7800C46261 /* SocketIOJSONSerialization.m */,
+				0BB94AA21947EA7800C46261 /* SocketIOPacket.h */,
+				0BB94AA31947EA7800C46261 /* SocketIOPacket.m */,
+				0BB94AA41947EA7800C46261 /* SocketIOTransport.h */,
+				0BB94AA51947EA7800C46261 /* SocketIOTransportWebsocket.h */,
+				0BB94AA61947EA7800C46261 /* SocketIOTransportWebsocket.m */,
+				0BB94AA71947EA7800C46261 /* SocketIOTransportXHR.h */,
+				0BB94AA81947EA7800C46261 /* SocketIOTransportXHR.m */,
+				0BBD623E192944B600B5D47B /* PortVibe.xcdatamodeld */,
+				0BBD6241192944B600B5D47B /* Images.xcassets */,
 				0BBD623B192944B600B5D47B /* PVAppDelegate.h */,
 				0BBD623C192944B600B5D47B /* PVAppDelegate.m */,
-				0BBD6241192944B600B5D47B /* Images.xcassets */,
-				0BBD623E192944B600B5D47B /* PortVibe.xcdatamodeld */,
+				0BA7AF071958FAE600438DC9 /* PVVibesItem.h */,
+				0BA7AF081958FAE600438DC9 /* PVVibesItem.m */,
+				0BA7AF0E195CCF9100438DC9 /* PVPortalItem.h */,
+				0BA7AF0F195CCF9100438DC9 /* PVPortalItem.m */,
+				0B33CACE195231B20095B707 /* PVMenuTableViewController.h */,
+				0B33CACF195231B20095B707 /* PVMenuTableViewController.m */,
+				0B33CAD11952351E0095B707 /* PVMenuNavigationViewController.h */,
+				0B33CAD21952351E0095B707 /* PVMenuNavigationViewController.m */,
+				0BB94A9B1947CCDB00C46261 /* PVSocketConnection.h */,
+				0BB94A9C1947CCDB00C46261 /* PVSocketConnection.m */,
+				0B8F8E66194641E000B4F6D3 /* PVSingletonData.h */,
+				0B8F8E67194641E000B4F6D3 /* PVSingletonData.m */,
+				0B481C6C19555DC100D5CA5A /* PVGPSCellTableViewCell.h */,
+				0B481C6D19555DC100D5CA5A /* PVGPSCellTableViewCell.m */,
+				0B481C6E19555DC200D5CA5A /* PVGPSCellTableViewCell.xib */,
+				0B6C01F21933D3A300AFFBF6 /* PVFriendsTableViewCell.h */,
+				0B6C01F31933D3A300AFFBF6 /* PVFriendsTableViewCell.m */,
+				0BD61F57193679A600315506 /* PVFriendsTableViewCell.xib */,
+				0BBD6282192AB27D00B5D47B /* PVPostsTableViewCell.h */,
+				0BBD6283192AB27D00B5D47B /* PVPostsTableViewCell.m */,
+				0BD61F551936627300315506 /* PVPostsTableViewCell.xib */,
+				0B19D6A0194FC1ED00DA1344 /* PVReplyTableViewCell.h */,
+				0B19D6A1194FC1ED00DA1344 /* PVReplyTableViewCell.m */,
+				0B19D6A2194FC1ED00DA1344 /* PVReplyTableViewCell.xib */,
+				0B33CAA1194FCE1D0095B707 /* PVReplyTableViewController.h */,
+				0B33CAA2194FCE1D0095B707 /* PVReplyTableViewController.m */,
+				0B34DB01193D119300B8EA23 /* PVPortInTableViewCell.h */,
+				0B34DB02193D119300B8EA23 /* PVPortInTableViewCell.m */,
+				0B34DB03193D119300B8EA23 /* PVPortInTableViewCell.xib */,
+				0B90608119609C2A002024EA /* PVEmptyListTableViewCell.h */,
+				0B90608219609C2A002024EA /* PVEmptyListTableViewCell.m */,
+				0B90608319609C2A002024EA /* PVEmptyListTableViewCell.xib */,
+				0B9303441937BEDC007F7DBE /* PVPortalsTableViewCell.h */,
+				0B9303451937BEDC007F7DBE /* PVPortalsTableViewCell.m */,
+				0B9303471937C6D7007F7DBE /* PVPortalsTableViewCell.xib */,
+				0BF2F8B2192FFB5F004B2A57 /* PVMapviewViewController.h */,
+				0BF2F8B3192FFB5F004B2A57 /* PVMapviewViewController.m */,
+				0B4EF3E0193BBC5E0036D659 /* PVMapviewViewController.xib */,
+				0B34DB0C193D3CA500B8EA23 /* PVCoreLocationController.h */,
+				0B34DB0D193D3CA500B8EA23 /* PVCoreLocationController.m */,
+				0B19D687194D3A6100DA1344 /* PVPortalPageViewController.h */,
+				0B19D688194D3A6100DA1344 /* PVPortalPageViewController.m */,
+				0B19D689194D3A6100DA1344 /* PVPortalPageViewController.xib */,
+				0B33CAA6195193C70095B707 /* PVPortfileViewController.h */,
+				0B33CAA7195193C70095B707 /* PVPortfileViewController.m */,
+				0B33CAA8195193C70095B707 /* PVPortfileViewController.xib */,
+				0B33CAB51951A2D70095B707 /* PVSearchViewController.h */,
+				0B33CAB61951A2D70095B707 /* PVSearchViewController.m */,
+				0B33CAB71951A2D70095B707 /* PVSearchViewController.xib */,
+				0BBD625F19294BEA00B5D47B /* PVHomeViewController.h */,
+				0BBD626019294BEA00B5D47B /* PVHomeViewController.m */,
+				0BBD626219294BFA00B5D47B /* PVPostsViewController.h */,
+				0BBD626319294BFA00B5D47B /* PVPostsViewController.m */,
+				0BBD62681929508700B5D47B /* PVPortalsViewController.h */,
+				0BBD62691929508700B5D47B /* PVPortalsViewController.m */,
+				0B6C01EB1933BBBA00AFFBF6 /* PVMyPortfolioViewController.h */,
+				0B6C01EC1933BBBA00AFFBF6 /* PVMyPortfolioViewController.m */,
+				0B6C01ED1933BBBA00AFFBF6 /* PVMyPortfolioViewController.xib */,
+				0B481C711955672B00D5CA5A /* PVAccountSettingsViewController.h */,
+				0B481C721955672B00D5CA5A /* PVAccountSettingsViewController.m */,
+				0B481C731955672B00D5CA5A /* PVAccountSettingsViewController.xib */,
+				0B8F8E6119462C4100B4F6D3 /* PVForgotPasswordViewController.h */,
+				0B8F8E6219462C4100B4F6D3 /* PVForgotPasswordViewController.m */,
+				0B8F8E6319462C4100B4F6D3 /* PVForgotPasswordViewController.xib */,
+				0BBD627A192978C300B5D47B /* PVLoginViewController.h */,
+				0BBD627B192978C300B5D47B /* PVLoginViewController.m */,
+				0BBD627C192978C300B5D47B /* PVLoginViewController.xib */,
+				0BF2F8A4192EA700004B2A57 /* PVRegisterViewController.h */,
+				0BF2F8A5192EA700004B2A57 /* PVRegisterViewController.m */,
+				0BF2F8A7192EA776004B2A57 /* PVRegisterViewController.xib */,
+				0B5F8852192D4A5400AF2ED2 /* images */,
 				0BBD6233192944B600B5D47B /* Supporting Files */,
 			);
 			path = PortVibe;
@@ -229,8 +610,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B481C6619536F1200D5CA5A /* PVPortalPageViewController.xib in Resources */,
+				0B481C6519536F0800D5CA5A /* PVPortfileViewController.xib in Resources */,
+				0B5F8867192DFC5D00AF2ED2 /* location.png in Resources */,
+				0B33CAAE195196B20095B707 /* Message.png in Resources */,
+				0B19D697194F7B7900DA1344 /* search.png in Resources */,
+				0B19D69F194F895F00DA1344 /* subscribers.png in Resources */,
+				0BA7AF16195CDA6500438DC9 /* mouthBadge.png in Resources */,
+				0B9303481937C6D7007F7DBE /* PVPortalsTableViewCell.xib in Resources */,
+				0B90608019609723002024EA /* vibeWave.png in Resources */,
+				0B19D6A4194FC1ED00DA1344 /* PVReplyTableViewCell.xib in Resources */,
+				0B90608519609C2A002024EA /* PVEmptyListTableViewCell.xib in Resources */,
+				0BF2F8A3192EA1A3004B2A57 /* portfiles.png in Resources */,
+				0BA7AF0D195B678F00438DC9 /* sheriffBadge.png in Resources */,
+				0BD61F58193679A600315506 /* PVFriendsTableViewCell.xib in Resources */,
+				0B33CAB419519EC90095B707 /* reportUser.png in Resources */,
+				0B5F8866192DFC5D00AF2ED2 /* house.png in Resources */,
+				0B19D69D194F87A800DA1344 /* mapview.png in Resources */,
+				0BF2F8B1192FF384004B2A57 /* greenLight.png in Resources */,
+				0B19D691194E524A00DA1344 /* like.jpg in Resources */,
+				0BF2F8AA192ED22E004B2A57 /* anonymousPhoto.png in Resources */,
+				0B481C7019555DC200D5CA5A /* PVGPSCellTableViewCell.xib in Resources */,
+				0B5F886A192DFC5D00AF2ED2 /* posts.png in Resources */,
+				0B5F8864192DFC5D00AF2ED2 /* clock.png in Resources */,
+				0B8F8E6519462C4100B4F6D3 /* PVForgotPasswordViewController.xib in Resources */,
+				0B481C751955672B00D5CA5A /* PVAccountSettingsViewController.xib in Resources */,
+				0B6C01EF1933BBBA00AFFBF6 /* PVMyPortfolioViewController.xib in Resources */,
 				0BBD6237192944B600B5D47B /* InfoPlist.strings in Resources */,
+				0BF2F8A8192EA776004B2A57 /* PVRegisterViewController.xib in Resources */,
+				0BBD627E192978C300B5D47B /* PVLoginViewController.xib in Resources */,
+				0B33CAB219519AFB0095B707 /* portalQuality.png in Resources */,
+				0BA7AF12195CCFBA00438DC9 /* bossBadge.png in Resources */,
+				0BA7AF1A195DEA4900438DC9 /* portViber.png in Resources */,
+				0B481C6B19555A3C00D5CA5A /* backButton.png in Resources */,
 				0BBD6242192944B600B5D47B /* Images.xcassets in Resources */,
+				0B34DB09193D1CBA00B8EA23 /* distance.jpeg in Resources */,
+				0B33CAB0195198470095B707 /* plusFriend.png in Resources */,
+				0BD61F561936627300315506 /* PVPostsTableViewCell.xib in Resources */,
+				0BF2F8A1192EA183004B2A57 /* portalPic.png in Resources */,
+				0B33CAB91951A2D70095B707 /* PVSearchViewController.xib in Resources */,
+				0B19D69B194F7CD700DA1344 /* menu.png in Resources */,
+				0BB95B8919610F3B0029F63D /* cartman.png in Resources */,
+				0B19D690194E524A00DA1344 /* flag.jpg in Resources */,
+				0BA7AF18195CE0C100438DC9 /* Portal.png in Resources */,
+				0B4EF3E1193BBC5E0036D659 /* PVMapviewViewController.xib in Resources */,
+				0B34DB05193D119300B8EA23 /* PVPortInTableViewCell.xib in Resources */,
+				0BA7AF0B195B4CB800438DC9 /* delete.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +674,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B481C6419536EDC00D5CA5A /* PVPortalPageViewController.m in Sources */,
+				0B90608419609C2A002024EA /* PVEmptyListTableViewCell.m in Sources */,
+				0BB94AAD1947EA7800C46261 /* SocketIOTransportXHR.m in Sources */,
+				0B481C6919538BEF00D5CA5A /* SFHFKeychainUtils.m in Sources */,
+				0B33CACB1951C8630095B707 /* UIImage+REFrostedViewController.m in Sources */,
+				0B33CAC91951C8630095B707 /* REFrostedContainerViewController.m in Sources */,
+				0BA7AF10195CCF9100438DC9 /* PVPortalItem.m in Sources */,
+				0B9303461937BEDC007F7DBE /* PVPortalsTableViewCell.m in Sources */,
+				0BBD626119294BEA00B5D47B /* PVHomeViewController.m in Sources */,
+				0BB94AAB1947EA7800C46261 /* SocketIOPacket.m in Sources */,
+				0B33CACA1951C8630095B707 /* REFrostedViewController.m in Sources */,
+				0B6C01F41933D3A300AFFBF6 /* PVFriendsTableViewCell.m in Sources */,
+				0BF2F8B4192FFB5F004B2A57 /* PVMapviewViewController.m in Sources */,
+				0B34DB0E193D3CA500B8EA23 /* PVCoreLocationController.m in Sources */,
+				0B33CAA9195193C70095B707 /* PVPortfileViewController.m in Sources */,
 				0BBD623D192944B600B5D47B /* PVAppDelegate.m in Sources */,
+				0B481C6F19555DC200D5CA5A /* PVGPSCellTableViewCell.m in Sources */,
+				0B33CACC1951C8630095B707 /* UIView+REFrostedViewController.m in Sources */,
+				0BF2F8A6192EA700004B2A57 /* PVRegisterViewController.m in Sources */,
+				0BB94AAA1947EA7800C46261 /* SocketIOJSONSerialization.m in Sources */,
+				0BA7AF091958FAE600438DC9 /* PVVibesItem.m in Sources */,
 				0BBD6240192944B600B5D47B /* PortVibe.xcdatamodeld in Sources */,
+				0B8F8E6419462C4100B4F6D3 /* PVForgotPasswordViewController.m in Sources */,
+				0B33CACD1951C8630095B707 /* UIViewController+REFrostedViewController.m in Sources */,
+				0B33CAC81951C8630095B707 /* RECommonFunctions.m in Sources */,
+				0BAE4C8C194913EE0033FED6 /* SRWebSocket.m in Sources */,
+				0BB94AA91947EA7800C46261 /* SocketIO.m in Sources */,
+				0BBD626419294BFA00B5D47B /* PVPostsViewController.m in Sources */,
+				0B33CAD0195231B20095B707 /* PVMenuTableViewController.m in Sources */,
+				0BBD6284192AB27D00B5D47B /* PVPostsTableViewCell.m in Sources */,
+				0B6C01EE1933BBBA00AFFBF6 /* PVMyPortfolioViewController.m in Sources */,
+				0BBD627D192978C300B5D47B /* PVLoginViewController.m in Sources */,
+				0B34DB04193D119300B8EA23 /* PVPortInTableViewCell.m in Sources */,
+				0B19D6A3194FC1ED00DA1344 /* PVReplyTableViewCell.m in Sources */,
+				0B33CAD31952351E0095B707 /* PVMenuNavigationViewController.m in Sources */,
+				0BB94A9D1947CCDB00C46261 /* PVSocketConnection.m in Sources */,
+				0BB94AAC1947EA7800C46261 /* SocketIOTransportWebsocket.m in Sources */,
+				0B33CAB81951A2D70095B707 /* PVSearchViewController.m in Sources */,
+				0BBD626A1929508700B5D47B /* PVPortalsViewController.m in Sources */,
+				0B33CAA3194FCE1D0095B707 /* PVReplyTableViewController.m in Sources */,
+				0B8F8E68194641E000B4F6D3 /* PVSingletonData.m in Sources */,
+				0B19D686194CFBE000DA1344 /* CustomIOS7AlertView.m in Sources */,
 				0BBD6239192944B600B5D47B /* main.m in Sources */,
+				0B481C741955672B00D5CA5A /* PVAccountSettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +837,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PortVibe/PortVibe-Prefix.pch";
 				INFOPLIST_FILE = "PortVibe/PortVibe-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -384,6 +851,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PortVibe/PortVibe-Prefix.pch";
 				INFOPLIST_FILE = "PortVibe/PortVibe-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -448,6 +916,7 @@
 				0BBD625B192944B600B5D47B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BBD625C192944B600B5D47B /* Build configuration list for PBXNativeTarget "PortVibeTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +925,7 @@
 				0BBD625E192944B600B5D47B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

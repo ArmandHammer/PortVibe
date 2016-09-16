@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="110" id="xgN-4D-Gle" customClass="PVFriendsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xgN-4D-Gle" id="4oE-cU-qql">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="109"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmS-6R-6be">
+                        <rect key="frame" x="63" y="10" width="242" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="jEl-cr-OSX"/>
+                        </constraints>
+                        <state key="normal" title="Display Name">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" image="anonymousPhoto.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZFI-Yf-FO4">
+                        <rect key="frame" x="10" y="10" width="45" height="45"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="jc6-jl-rM0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User blurb here mnd sgbdsfjkgnjksdfn bgjkdvs nfjgndsfgdfsgsdfgdsf kgbdskfgnsdjkfngdsfjg" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="242" translatesAutoresizingMaskIntoConstraints="NO" id="YJz-CQ-Fvx">
+                        <rect key="frame" x="63" y="32" width="242" height="50"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngs-t3-4Ru">
+                        <rect key="frame" x="51" y="87" width="70" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="3RX-el-MBC"/>
+                            <constraint firstAttribute="height" constant="15" id="ZuS-oA-Val"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="Unfriend">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5K3-QY-qmb">
+                        <rect key="frame" x="129" y="87" width="90" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="J5L-y7-aMF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="Message">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rep: 123" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="34" translatesAutoresizingMaskIntoConstraints="NO" id="zX0-bz-i10">
+                        <rect key="frame" x="16" y="63" width="34" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="34" id="OXV-cZ-Q7O"/>
+                            <constraint firstAttribute="height" constant="30" id="dSK-kw-DXL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zX0-bz-i10" firstAttribute="leading" secondItem="4oE-cU-qql" secondAttribute="leading" constant="16" id="4Tb-DZ-AFC"/>
+                    <constraint firstItem="vmS-6R-6be" firstAttribute="top" secondItem="ZFI-Yf-FO4" secondAttribute="top" id="6T4-5j-jFg"/>
+                    <constraint firstItem="ZFI-Yf-FO4" firstAttribute="leading" secondItem="4oE-cU-qql" secondAttribute="leading" constant="10" id="A5a-sy-TUI"/>
+                    <constraint firstItem="YJz-CQ-Fvx" firstAttribute="leading" secondItem="ZFI-Yf-FO4" secondAttribute="trailing" constant="8" symbolic="YES" id="CNQ-gG-VkL"/>
+                    <constraint firstItem="vmS-6R-6be" firstAttribute="trailing" secondItem="YJz-CQ-Fvx" secondAttribute="trailing" id="EIw-Qx-vSN"/>
+                    <constraint firstItem="ngs-t3-4Ru" firstAttribute="leading" secondItem="zX0-bz-i10" secondAttribute="trailing" constant="1" id="EPL-je-sMU"/>
+                    <constraint firstAttribute="trailing" secondItem="vmS-6R-6be" secondAttribute="trailing" constant="15" id="GRf-CK-i5O"/>
+                    <constraint firstAttribute="bottom" secondItem="zX0-bz-i10" secondAttribute="bottom" constant="16" id="NZa-qQ-S6V"/>
+                    <constraint firstItem="ngs-t3-4Ru" firstAttribute="top" secondItem="5K3-QY-qmb" secondAttribute="top" id="OSg-vD-JhC"/>
+                    <constraint firstItem="YJz-CQ-Fvx" firstAttribute="top" secondItem="vmS-6R-6be" secondAttribute="bottom" constant="4" id="Tks-Pq-d1v"/>
+                    <constraint firstItem="5K3-QY-qmb" firstAttribute="leading" secondItem="ngs-t3-4Ru" secondAttribute="trailing" constant="8" symbolic="YES" id="VfQ-g3-ky2"/>
+                    <constraint firstItem="zX0-bz-i10" firstAttribute="top" secondItem="ZFI-Yf-FO4" secondAttribute="bottom" constant="8" symbolic="YES" id="cRC-rJ-dy2"/>
+                    <constraint firstItem="ngs-t3-4Ru" firstAttribute="bottom" secondItem="5K3-QY-qmb" secondAttribute="bottom" id="gQI-ie-5a7"/>
+                    <constraint firstItem="ZFI-Yf-FO4" firstAttribute="top" secondItem="4oE-cU-qql" secondAttribute="top" constant="10" id="kSv-s1-f0z"/>
+                    <constraint firstItem="ngs-t3-4Ru" firstAttribute="top" secondItem="YJz-CQ-Fvx" secondAttribute="bottom" constant="5" id="n5D-Tw-QKD"/>
+                    <constraint firstItem="vmS-6R-6be" firstAttribute="leading" secondItem="ZFI-Yf-FO4" secondAttribute="trailing" constant="8" symbolic="YES" id="qLL-1u-Ugz"/>
+                    <constraint firstAttribute="bottom" secondItem="ngs-t3-4Ru" secondAttribute="bottom" constant="7" id="tjY-dJ-HlZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="displayName" destination="vmS-6R-6be" id="Llm-7q-iSy"/>
+                <outlet property="message" destination="5K3-QY-qmb" id="piC-e3-tmG"/>
+                <outlet property="unfriend" destination="ngs-t3-4Ru" id="HbF-yI-HGg"/>
+                <outlet property="userBlurb" destination="YJz-CQ-Fvx" id="ZXF-Ph-NaS"/>
+                <outlet property="userPhoto" destination="ZFI-Yf-FO4" id="72p-zc-mSK"/>
+                <outlet property="userRep" destination="zX0-bz-i10" id="hiG-Pq-MDr"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="anonymousPhoto.png" width="280" height="280"/>
+    </resources>
+</document>

@@ -2,25 +2,142 @@
 //  PVAppDelegate.m
 //  PortVibe
 //
-//  Created by Mark Gorys on -05-1814.
+//  Created by Armand Obreja 05-17-2014
 //  Copyright (c) 2014 Armand. All rights reserved.
-//
 
 #import "PVAppDelegate.h"
+static NSString *serviceName = @"PortVibe";
 
 @implementation PVAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
+@synthesize portalsViewController, postsViewController, homeViewController, myPortfolioViewController, loginViewController, registerViewController, mapviewViewController, forgotPasswordViewController, socketConnection, portalPageViewController, locationManager, portfileViewController, frostedViewController, viewControllers, tabBarController, menuTableViewController;
+
+-(void)receivedPacket:(id)packet
+{
+    NSLog(@"Receiving packets...");
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    //singleton data
+    PVSingletonData *singletonData = [PVSingletonData sharedID];
+    
+    //create the view controllers array that holds the four tabs: Vibes, Posts, Portfiles, Portals
+    viewControllers = [[NSMutableArray alloc] init];
+    
+    //generate all view controllers
+    homeViewController = [[PVHomeViewController alloc] initWithStyle:UITableViewStylePlain];
+    postsViewController = [[PVPostsViewController alloc] initWithStyle:UITableViewStylePlain];
+    myPortfolioViewController = [[PVMyPortfolioViewController alloc] init];
+    portalsViewController = [[PVPortalsViewController alloc] initWithStyle:UITableViewStylePlain];
+    loginViewController = [[PVLoginViewController alloc] init];
+    registerViewController = [[PVRegisterViewController alloc] init];
+    forgotPasswordViewController = [[PVForgotPasswordViewController alloc] init];
+    mapviewViewController = [[PVMapviewViewController alloc] init];
+    portalPageViewController = [[PVPortalPageViewController alloc] init];
+    portfileViewController = [[PVPortfileViewController alloc] init];
+    
+    //navigation controllers for all tabs
+    PVMenuNavigationViewController *homeNavigationController = [[PVMenuNavigationViewController alloc] initWithRootViewController:homeViewController];
+    [viewControllers addObject:homeNavigationController];
+    
+    PVMenuNavigationViewController *postsNavigationController = [[PVMenuNavigationViewController alloc] initWithRootViewController:postsViewController];
+    [viewControllers addObject:postsNavigationController];
+    
+    PVMenuNavigationViewController *portalsNavigationController = [[PVMenuNavigationViewController alloc] initWithRootViewController:portalsViewController];
+    [viewControllers addObject:portalsNavigationController];
+    
+    PVMenuNavigationViewController *myPortfolioNavigationController = [[PVMenuNavigationViewController alloc] initWithRootViewController:myPortfolioViewController];
+    [viewControllers addObject:myPortfolioNavigationController];
+    
+    menuTableViewController = [[PVMenuTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    //set the transition controllers
+    [postsViewController setLoginViewController:loginViewController];
+    [portalsViewController setMapviewViewController:mapviewViewController];
+    [homeViewController setPortalPageViewController:portalPageViewController];
+    [postsViewController setPortalPageViewController:portalPageViewController];
+    [portalsViewController setPortalPageViewController:portalPageViewController];
+    [myPortfolioViewController setPortalPageViewController:portalPageViewController];
+    [homeViewController setPortfileViewController:portfileViewController];
+    [postsViewController setPortfileViewController:portfileViewController];
+    [myPortfolioViewController setPortfileViewController:portfileViewController];
+    [portalPageViewController setPortfileViewController:portfileViewController];
+    
+    //create tab bar controller and add viewControllers to it
+    tabBarController = [[UITabBarController alloc] init];
+    [tabBarController setViewControllers:viewControllers];
+    
+    // Create frosted view controller for each tab
+    frostedViewController = [[REFrostedViewController alloc] initWithContentViewController:tabBarController menuViewController:menuTableViewController];
+    frostedViewController.direction = REFrostedViewControllerDirectionLeft;
+    frostedViewController.liveBlurBackgroundStyle = REFrostedViewControllerLiveBackgroundStyleLight;
+    frostedViewController.liveBlur = YES;
+    frostedViewController.delegate = self;
+    
+    // user is not logged in
+    if (!singletonData.isLoggedIn)
+    {
+        [[[[tabBarController tabBar]items]objectAtIndex:0]setEnabled:FALSE];
+        [[[[tabBarController tabBar]items]objectAtIndex:3]setEnabled:FALSE];
+        [tabBarController setSelectedIndex:1];
+    }
+    else
+    {
+        [[[[tabBarController tabBar]items]objectAtIndex:0]setEnabled:TRUE];
+        [[[[tabBarController tabBar]items]objectAtIndex:3]setEnabled:TRUE];
+        [tabBarController setSelectedIndex:0];
+    }
+    
+    [self.window setRootViewController:frostedViewController];
     [self.window makeKeyAndVisible];
+    
+    //socket connection
+    socketConnection = [PVSocketConnection sharedSingleton];
+    socketConnection.delegate = self;
+    
     return YES;
+}
+
+- (BOOL)authenticateUser
+{
+    //singleton data
+    PVSingletonData *singletonData = [PVSingletonData sharedID];
+    NSError *error = nil;
+    userEmail = singletonData.userEmail;
+    userPassword = [SFHFKeychainUtils getPasswordForUsername:userEmail andServiceName:serviceName error:&error];
+    return YES;
+}
+
+- (void)frostedViewController:(REFrostedViewController *)frostedViewController didRecognizePanGesture:(UIPanGestureRecognizer *)recognizer
+{
+    
+}
+
+- (void)frostedViewController:(REFrostedViewController *)frostedViewController willShowMenuViewController:(UIViewController *)menuViewController
+{
+    NSLog(@"willShowMenuViewController");
+}
+
+- (void)frostedViewController:(REFrostedViewController *)frostedViewController didShowMenuViewController:(UIViewController *)menuViewController
+{
+    NSLog(@"didShowMenuViewController");
+}
+
+- (void)frostedViewController:(REFrostedViewController *)frostedViewController willHideMenuViewController:(UIViewController *)menuViewController
+{
+    NSLog(@"willHideMenuViewController");
+}
+
+- (void)frostedViewController:(REFrostedViewController *)frostedViewController didHideMenuViewController:(UIViewController *)menuViewController
+{
+    NSLog(@"didHideMenuViewController");
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

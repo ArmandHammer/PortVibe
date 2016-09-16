@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PVSearchViewController">
+            <connections>
+                <outlet property="searchDisplayController" destination="Rdo-c5-Wnp" id="gBh-D4-Dil"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xdl-Du-g36">
+                    <rect key="frame" x="0.0" y="73" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="7gm-1q-C1R"/>
+                    </connections>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+        <searchDisplayController id="Lkq-Rj-c16">
+            <connections>
+                <outlet property="delegate" destination="-1" id="Ozk-xn-gfe"/>
+                <outlet property="searchContentsController" destination="-1" id="7Jx-Wl-kEE"/>
+                <outlet property="searchResultsDataSource" destination="-1" id="Lfe-ph-VoT"/>
+                <outlet property="searchResultsDelegate" destination="-1" id="uiu-eT-8L0"/>
+            </connections>
+        </searchDisplayController>
+        <searchDisplayController id="Rdo-c5-Wnp">
+            <connections>
+                <outlet property="delegate" destination="-1" id="4xS-wh-qEj"/>
+                <outlet property="searchBar" destination="Xdl-Du-g36" id="5oQ-vp-Yht"/>
+                <outlet property="searchContentsController" destination="-1" id="3oS-39-UHF"/>
+                <outlet property="searchResultsDataSource" destination="-1" id="nAb-Nk-ssh"/>
+                <outlet property="searchResultsDelegate" destination="-1" id="NMk-Mn-92o"/>
+            </connections>
+        </searchDisplayController>
+    </objects>
+</document>
